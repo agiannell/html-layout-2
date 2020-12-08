@@ -1,0 +1,247 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 5%;
+    color: white;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 5px dotted red; */    
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 5px dotted red;     */
+}
+
+footer nav {
+    width: 70%;
+    display: flex;
+    margin-right: 7%;
+    justify-content: space-evenly;
+    /* border: 3px dotted red; */
+
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    margin-right: 7%;
+    justify-content: left;
+    /* border: 3px dotted red; */
+
+}
+
+header nav span {
+    padding: 0 .6em;
+}
+
+footer nav span {
+    padding: 0 .6em;
+}
+
+footer nav a:link {
+    padding: 0 .6em;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:visited {
+    padding: 0 .6em;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    padding: 0 .6em;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:active {
+    padding: 0 .6em;
+    color: gray;
+    text-decoration: none;
+}
+
+.logo {
+    height: 25px;
+    margin-bottom: 7px;
+}
+
+.three-bars {
+    height: 15px;
+}
+
+.sec-1 {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    /* padding: 10% 3%; */
+    background-image: url(assets/home-1.webp);
+    background-color: #2f4f6e;
+    background-size: 175%;
+    background-position: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.sec-2 {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10% 3%;
+    background-image: url(assets/home-2.webp);
+    background-color: #4d82ad;
+    background-size: 200%;
+    background-position: 40%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sec-3 {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10% 3%;
+    background-image: url(assets/home-3.webp);
+    background-color: #4d82ad;
+    background-size: 150%;
+    background-position: 40%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sec-4 {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10% 3%;
+    background-image: url(assets/home-4.webp);
+    background-color: #4d82ad;
+    background-size: 220%;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sec-5 {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 3%;
+    background-image: url(assets/home-5.webp);
+    background-color: #4d82ad;
+    background-size: 250%;
+    background-position: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-6 {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 3%;
+    background-image: url(assets/home-6.webp);
+    background-color: #4d82ad;
+    background-size: 120%;
+    /* background-position: 85%; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.shop-link {
+    width: 7%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px dotted red;    */
+}
+
+h1 {
+    font-size: xx-large;
+    padding: 15px 0;
+}
+
+h6 {
+    font-size: medium;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.feature {
+    width: 30%;
+    height: 45%;
+    margin-left: 3%;
+    color: white;
+    /* border: 3px dotted red; */
+    text-shadow: 0 0 10px black;
+    flex-wrap: wrap;
+
+}
+
+.feature-5 {
+    width: 30%;
+    height: 45%;
+    line-height: 1.5;
+    color: white;
+    /* border: 3px dotted red; */
+    flex-wrap: wrap;
+
+}
+
+.feature-6 {
+    width: 30%;
+    height: 45%;
+    color: white;
+    /* border: 3px dotted red; */
+    flex-wrap: wrap;
+
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    margin-top: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: 0 0 0;
+}
+
+.copyright {
+    color: gray;
+}
+
+.arrow {
+    height: 25px;
+    width: 5%;
+    margin-bottom: 2%;
+    margin-left: 250px;
+    /* border: 3px dotted red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.arrow img {
+    height: 100%;
+}
